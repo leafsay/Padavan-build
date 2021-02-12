@@ -39,8 +39,8 @@ jobs:
     - name: Set Golang
       run: |
         cd /opt/hostedtoolcache/go
-        rm -rf /opt/hostedtoolcache/go/1.14.15
-        mv 1.15.8 1.14.15  
+        rm -rf /opt/hostedtoolcache/go/1.14.14
+        mv 1.15.8 1.14.14  
     - name: Build Firmware
       env:
         TNAME: NEWIFI3
